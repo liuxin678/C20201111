@@ -1,0 +1,5 @@
+#include<stdio.h>
+void work()
+{printf("你好")；}
+void main()
+{work();}
