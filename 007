@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{int x;
+scanf("%d",&x);
+	if(x>0)
+{printf("正数");}
+else if(x<0)
+{printf("负数");}
+else
+{printf("错误");}
+}
