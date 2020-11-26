@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{int a=20;
+int b;
+int c=1;
+printf("提示：这是0-30的数字\n");
+while(c<=5)
+{
+scanf("%d",&b);
+c++;
+if(b==a)
+printf("恭喜你，猜对了\n");
+else if(b>a)
+printf("大了\n");
+else if(b<a)
+printf("小了\n");
+}
+{if(c=5)
+printf("你的机会已用尽\n");
+}
+}
