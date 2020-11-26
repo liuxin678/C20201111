@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<windows.h>
+void main()
+{
+printf("你好\n");
+Sleep(1500);
+{printf("你好\n");}
+Sleep(1500);
+{printf("很高兴认识你\n");}
+Sleep(1500);
+{printf("我也是\n");}
+Sleep(1500);
+{printf("好好学习，加油\n");}
+Sleep(1500);
+{printf("好的，谢谢\n");}
+}
