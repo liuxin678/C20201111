@@ -3,16 +3,14 @@
 void main()
 {int a=18;
 int b;
-int c=1;
 printf("提示0-20\n");
-while(c<=10){
+while(1){
 scanf("%d",&b);
 	if(b==a)
-{printf("对");
-	c=c+25;}
+{printf("对");}
 else if(b>a)
 {printf("大了");}
 else
 {printf("小了");}
 }
-c++;
+}
