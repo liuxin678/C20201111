@@ -6,5 +6,5 @@ scanf("%d",&time);
 hour=time/3600;
 min=time%3600/60;
 sec=time%60;
-printf("%d:%d:%d:",hour,min,sec);
+printf("%.2d:%.2d:%.2d",hour,min,sec);
 }
