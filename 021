@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+int i;
+int row,column;
+int num[]={1,2,3,4,5,6};
+int num2d[2][3]={
+	{2001,2002,2003},
+	{2004,2005,2006}
+};
+for(i=0;i<=5;i++)
+printf("%d\n",num[i]);
+for(row=0;row<2;row++){
+	for(column=0;column<3;column++){
+		printf("%d ",num2d[row][column]);
+	}
+    printf("\n");
+  }
+}
