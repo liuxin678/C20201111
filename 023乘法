@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+int a,b,cheng;
+a=12;
+b=20;
+cheng=a*b;
+printf("%d",cheng);
+}
