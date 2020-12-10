@@ -9,7 +9,7 @@ int x;
 int i=1;
 int a=1;
 printf("你猜我知道你是傻子吗\n");
-while(a<=100){
+while(a<=10){
 	scanf("%s",&s2);
 	if( strcmp(s1,s2)==0 ){
 	printf("欢迎进入游戏\n");
@@ -25,12 +25,13 @@ while(a<=100){
 			printf("厉害了\n");
 			i=i+100;
 			}
-		i++;
+		a++;
 		}
 	}
 	else{
-	printf("输入错误，请再试一次\n");
+	printf("输入错误\n");
 	}
-a++;
+i++;
 }
 }
+
