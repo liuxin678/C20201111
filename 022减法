@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+int a,b,jian;
+a=999;
+b=888;
+jian=a-b;
+printf("%d\n",jian);
+}
