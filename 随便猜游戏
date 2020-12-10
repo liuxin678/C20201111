@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char s1[]="知道";
+char s2[30];	
+int y=20;
+int x;
+int i=1;
+int a=1;
+printf("你猜我知道你是傻子吗\n");
+while(a<=100){
+	scanf("%s",&s2);
+	if( strcmp(s1,s2)==0 ){
+	printf("欢迎进入游戏\n");
+		while(i<=3){
+			scanf("%d",&x);
+			if(x>y){
+			printf("大了\n");
+			}
+			else if(x<y){
+			printf("小了\n");
+			}
+			else if(x==y){
+			printf("厉害了\n");
+			i=i+100;
+			}
+		i++;
+		}
+	}
+	else{
+	printf("输入错误，请再试一次\n");
+	}
+a++;
+}
+}
