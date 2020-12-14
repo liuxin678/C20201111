@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+int a,b,chu;
+a=66;
+b=11;
+chu=a/b;
+printf("chu=%d\n",chu);
+}
